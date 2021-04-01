@@ -1,0 +1,91 @@
+<?xml version="2.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07F11F"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="214dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="587dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="462dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="324dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="195dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/welcome" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/Fic"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="   Fiction Online"
+                            android:textSize="50sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/search"
+                        android:layout_width="match_parent"
+                        android:layout_height="136dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="         Search"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#FFFFFF"
+                        android:textIsSelectable="false"
+                        android:textSize="50sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Fiction"
+                    android:layout_width="match_parent"
+                    android:layout_height="126dp"
+                    android:text="Fiction category"
+                    android:textSize="36sp"
+                    app:backgroundTint="#1FEC18" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Topten"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:backgroundTint="#1fec18"
+                android:text="Top 10 fiction                with the most views"
+                android:textSize="24sp"
+                app:iconPadding="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

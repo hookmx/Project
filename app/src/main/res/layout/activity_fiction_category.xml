@@ -1,0 +1,96 @@
+<?xml version="2.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1FEC18"
+    android:visibility="visible"
+    tools:context=".FictionCategory"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/mysterious"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:text="mysterious"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/Thriller"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:text="Thriller"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/Drama"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:text="Drama"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/Fantasy"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:text="Fantasy"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/Romance"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:text="Romance"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/Action"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:text="Action"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/Funny"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:text="Funny"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#1fec18"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Adventure"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:text="Adventure"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="401dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/giphy"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="639dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
